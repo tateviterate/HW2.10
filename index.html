@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div id="logo-block">
+				<img src="images/logo.png" alt="">
+			</div>
+		</header>
+		<ul class="nav">
+			<li class="active">Login</li>
+			<li>Register</li>
+		</ul>
+		<div id="tabs">
+			<div class="tabcontent active login">
+				<form action="">			
+						<div class="loginCont">
+							<label for="name">USERNAME</label><br>
+							<input type="text" name="name" 
+							class="input" 
+							placeholder="Your Teamviewer Username"
+							required
+							><br>
+							<label for="password">PASSWORD</label><br>
+							<input type="password" name="password" 
+							class="input" 
+							placeholder="Your Teamviewer Password"
+							required
+							><br>
+							<input type="checkbox" value="">Keep me signed in<br>
+						</div>
+					
+					<button type="submit" value="">Login with Teamviewer</button><br>
+				</form>
+				<div id="forgotPass">
+						<a href="">Forgot password</a>
+				</div>
+			</div>
+			<div class="tabcontent register">
+				<form action="">
+					<div class="registCont">
+						<input type="text" placeholder="Your First Name" required>
+						<input type="text" placeholder="Your Last Name" required>
+						<input type="email" placeholder="Email" required>
+						<input type="password" placeholder="Input Password" required>
+						<input type="password" placeholder="Confirm password" required>
+					</div>
+					<button type="submit">Register</button>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

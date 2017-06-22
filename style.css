@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #254a56;
+}
+.container{
+	width: 402px;
+	height: 470px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+}
+#logo-block{
+	height: 80px;
+	background: #0078cf;
+}
+.nav{
+	height: 43px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 23px;
+}
+.nav li{
+	list-style: none;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 900;
+	width: 199px;
+	padding: 15px 0;
+	text-align: center;
+	border-bottom: 1px solid #c3c3c3;
+}
+li.active{
+	color: #0078cf;
+	border-bottom: 1px solid #0078cf;
+}
+.login{
+	width: 300px;
+	margin:0 auto;
+	color: #b7b7be;
+}
+.login input{
+	padding: 17px 0 17px 13px;
+	margin: 18px 0 18px; 
+	width: 235px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid  #b7b7be;
+}
+.login input[type="checkbox"]{
+	width: auto;
+	margin-top: 0;
+}
+.login .loginCont, 
+.register .registCont{
+	width: 252px;
+	margin: 0 auto;
+}
+#forgotPass{
+	position: absolute;
+	bottom: 0;
+	width: inherit;
+	text-align: center;
+}
+#forgotPass a{
+	color: #b7b7be;
+	text-decoration: none;
+}
+#forgotPass a:hover{
+	color: #59595b;
+}
+.register input{
+	padding: 10px 0 10px 13px;
+	margin:0 auto  15px; 
+	width: 235px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid  #b7b7be;
+}
+
+#tabs .tabcontent {
+	display: none;
+	width: 300px;
+	height: 340px;
+	margin: 0 auto;
+}
+#tabs .tabcontent.active{
+	display: block;
+}
+button{
+	width: 100%;
+	border-radius: 15px;
+	background: #0078cf;
+	color: #fff;
+	padding: 18px 0 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border: none; 
+	outline: none;
+}
+
